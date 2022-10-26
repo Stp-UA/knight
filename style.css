@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 480px;
+}
+
+#board {
+    width: 480px;
+    height: 480px;
+}
+
+#b-block {
+    width: 480px;
+    height: 60px;
+}
+
+.chess-block {
+    width: 58px;
+    height: 58px;
+    float: left;
+    border: 1px solid #525252;
+}
+
+#knight {
+    background-image: url('./img/knight.png');
+}
+
+#bishop {
+    background-image: url('./img/bishop.png');
+}
+
+#rook {
+    background-image: url('./img/rook.png');
+}
+
+#queen {
+    background-image: url('./img/queen.png');
+}
+
+.button {
+    width: 58px;
+    height: 58px;
+    margin: auto 30px;
+    float: left;
+    border: 1px solid #525252;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bg-black {
+    background: #525252;
+}
+
+.figure {
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.knight {
+    background-image: url('./img/knight.png');
+}
+
+.bishop {
+    background-image: url('./img/bishop.png');
+}
+
+.rook {
+    background-image: url('./img/rook.png');
+}
+
+.queen {
+    background-image: url('./img/queen.png');
+}
+
+.move {
+    background-color: orange;
+}
+
+.oldpos {
+    background-color: green;
+}
+
+.on {
+    background-color: orange;
+}
